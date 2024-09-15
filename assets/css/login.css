@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+    border: none;
+    outline: none;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/bg.png);
+    display: flex;
+    
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    padding: 0 104px;
+    justify-content: space-between;
+}
+
+.login {
+    width: 500px;
+    background-color: whitesmoke;
+    border-radius: 16px;
+    padding: 51px 43px 40px;
+}
+
+.login .top h1 {
+    margin-bottom: 13px;
+}
+
+.login .top p {
+    color: #37454d;
+}
+
+.login .top {
+    margin-bottom: 30px;
+}
+
+.login form .Email input,
+.login form .password input {
+    width: 415px;
+    height: 38px;
+    border: 1px solid #9ba2a6;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.login form .Email input:focus,
+.login form .password input :focus {
+    border-color: #276968;
+}
+
+.login form .Email .input,
+.login form .password .input {
+    margin-top: 7px;
+}
+
+.login form .Email {
+    margin-bottom: 21px;
+}
+
+.login form .Email input::placeholder,
+.login form .password input::placeholder {
+    color: #37454d;
+}
+
+.remember_forpass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 17px;
+
+}
+
+.remember_forpass .forget a {
+    color: #ff6f6b;
+    text-decoration: none;
+}
+
+
+.btn {
+    margin: 25px 0px 11px;
+
+}
+
+.btn button {
+    width: 415px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #276968;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    opacity: 0.8;
+}
+
+.btn button a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.signup {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.signup a {
+    color: #ff6f6b;
+    text-decoration: none;
+
+}
+
+.icon p {
+    text-align: center;
+    color: #37454d;
+}
+
+.icon .img {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    margin-top: 18px;
+
+}
+
+.icon .img img {
+    border: 1px solid #276968;
+    padding: 8px 57px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.icon .img img:hover {
+    background-color: #f0f0f0;
+}

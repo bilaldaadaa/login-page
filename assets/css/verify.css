@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+    border: none;
+    outline: none;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/bg.png);
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 104px;
+    justify-content: space-between;
+}
+
+.verify {
+    width: 500px;
+    background-color: whitesmoke;
+    border-radius: 16px;
+    padding: 51px 43px 40px;
+}
+
+.verify h1 {
+    margin-bottom: 34px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.verify .input {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.verify .input input {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #9ba2a6;
+    padding-left: 10px;
+}
+
+.verify .input input:focus {
+    border-color: #276968;
+}
+
+.btn {
+    margin: 25px 0px 11px;
+
+}
+
+.btn button {
+    width: 415px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #276968;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    opacity: 0.8;
+}
+
+.btn button a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.resend {
+    text-align: center;
+
+}
+
+.resend a {
+    color: #ff6f6b;
+    text-decoration: none;
+
+}

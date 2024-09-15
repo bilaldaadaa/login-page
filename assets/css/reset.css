@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+    border: none;
+    outline: none;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/bg.png);
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 104px;
+    justify-content: space-between;
+}
+
+.reset {
+    width: 500px;
+    background-color: whitesmoke;
+    border-radius: 16px;
+    padding: 51px 43px 40px;
+}
+
+.reset .top h1 {
+    margin-bottom: 13px;
+    font-size: 35px;
+}
+
+.reset .top p {
+    color: #37454d;
+    font-size: 13px;
+
+
+}
+
+.reset .top {
+    margin-bottom: 30px;
+}
+
+.reset form .Email input {
+    width: 415px;
+    height: 38px;
+    border: 1px solid #9ba2a6;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.btn {
+    margin: 25px 0px 11px;
+
+}
+
+.btn button {
+    width: 415px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #276968;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    opacity: 0.8;
+}
+
+.btn button a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+}
